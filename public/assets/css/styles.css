@@ -5,6 +5,7 @@ body {
   padding: 0;
 }
 
+/* hide save note icon */
 .save-note {
   display: none;
 }
@@ -40,8 +41,6 @@ body {
 input {
     line-height: 50px;
 }
-
-
 
 .note-title:read-only,
 .note-textarea:read-only {
