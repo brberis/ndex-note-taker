@@ -36,6 +36,13 @@ body {
   font-size: 3rem;
 }
 
+/* safari compatibility */
+input {
+    line-height: 50px;
+}
+
+
+
 .note-title:read-only,
 .note-textarea:read-only {
   color: #757575;
