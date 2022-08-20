@@ -3,12 +3,13 @@ const { v1: uuidv1 } = require('uuid');
 const { notes } = require('../../db/db.json');
 const { findById, createNewNote, validateNote, deleteNote } = require('../../lib/notes');
 
-console.log(notes.length);
+// get all notes
 router.get('/notes', (req, res) => {
   let results = notes;
   res.json(results);
 });
 
+// save note
 router.post('/notes', (req, res) => {
   // set unique id to note (time-based version)
   req.body.id = uuidv1();
@@ -21,6 +22,7 @@ router.post('/notes', (req, res) => {
   }
 });
 
+// delete note
 router.delete('/note/:id', (req, res) => {
   const note = findById(req.params.id, notes);
   if (note) {
