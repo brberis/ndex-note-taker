@@ -23,7 +23,7 @@ router.post('/notes', (req, res) => {
 });
 
 // delete note
-router.delete('/note/:id', (req, res) => {
+router.delete('/notes/:id', (req, res) => {
   const note = findById(req.params.id, notes);
   if (note) {
     const result = deleteNote(note, notes);

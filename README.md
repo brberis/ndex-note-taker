@@ -10,7 +10,7 @@
 ### Simple note taker using client server architecture
 
 This application was developed in Express.js back-end and VanillaJS in front-end. Save, retrieve and delete note data from a JSON file.
-It utilice two endpoints to access to the data using methods like GET, POST and DELETE.  Developed in NodeJS following best practices in separation of concerns and DRY principies.
+It utilice only one endpoint to access to the data using methods GET, POST and DELETE.  Developed in NodeJS following best practices in separation of concerns and DRY principies.
 
 ## Screenshot
 
