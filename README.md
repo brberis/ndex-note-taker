@@ -31,7 +31,7 @@ It utilice two endpoints to access to the data using methods like GET, POST and 
 
 ## Live Demo
 
-Deployed in Heroku, follow this [link]().
+Deployed in Heroku, follow this [link](https://ndex-note-taker.herokuapp.com/).
 
 ## Questions
 
